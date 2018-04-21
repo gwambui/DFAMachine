@@ -1,0 +1,58 @@
+Python 2.7.13 |Anaconda 4.3.1 (64-bit)| (default, Dec 19 2016, 13:29:36) [MSC v.1500 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.1.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+runfile('E:/5361Discrete math/python/PA3/PA3.py', wdir='E:/5361Discrete math/python/PA3')
+Test DFA for L1
+['a', 'b', 'a', 'a', 'a', 'a', 'a', 'a']
+False
+['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b']
+False
+['a', 'a', 'b']
+False
+['b', 'a', 'b', 'b', 'a', 'a', 'b', 'b']
+True
+['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'a', 'b', 'b']
+True
+Test DFA for L2
+[]
+False
+['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b']
+True
+['a', 'a', 'b']
+True
+['b', 'a', 'b', 'b', 'a', 'a', 'b', 'b']
+False
+['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'a', 'b', 'b']
+True
+Test DFA for L3
+[]
+True
+['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b']
+True
+['a', 'a', 'b']
+True
+['b', 'a', 'b', 'b', 'a', 'a', 'b', 'b']
+False
+['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'a', 'b']
+False
+Test DFA for L4
+[]
+True
+['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b']
+True
+['a', 'a', 'b']
+True
+['a', 'a', 'a']
+True
+['b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'a', 'b']
+False
+['b', 'a', 'a']
+False
+['b', 'a']
+True
